@@ -5,6 +5,8 @@ import Login from './Login';
 import Registration from './Registration';
 import Forgotpassword from './Forgotpassword';
 import Resetpassword from './Resetpassword';
+import Portal from './Portal';
+import Dashboard from './Dashboard';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Route path='/register' element={<Registration/>}></Route>
       <Route path='/forgotpassword' element={<Forgotpassword/>}></Route>
       <Route path='/passwordReset' element={<Resetpassword/>}></Route>
+      <Route path='/portal' element={<Portal/>}></Route>
+      
     </Routes>
     </BrowserRouter>
   );

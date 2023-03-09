@@ -84,7 +84,8 @@ function Login() {
                       <Link to={"/forgotpassword"} class="small">
                         Forgot Password?
                       </Link>
-                      <input type={"submit"}  value={"Login"} class="btn btn-primary"/>                        
+                      {/* <input  type={"submit"}  value={"Login"} class="btn btn-primary"/> */}
+                      <Link to={"/portal"} className='btn btn-primary mr-2 mt-3'>Login</Link>
                       
                     </div>
                   </form>
