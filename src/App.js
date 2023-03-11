@@ -1,16 +1,19 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./css/sb-admin-2.css";
+// import "./css/style.css";
 import Login from './Login';
 import Registration from './Registration';
 import Forgotpassword from './Forgotpassword';
 import Resetpassword from './Resetpassword';
 import Portal from './Portal';
-import Dashboard from './Dashboard';
+
 
 
 function App() {
   return (
+    
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login/>}></Route>

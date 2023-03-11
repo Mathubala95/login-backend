@@ -85,8 +85,11 @@ function Login() {
                         Forgot Password?
                       </Link>
                       {/* <input  type={"submit"}  value={"Login"} class="btn btn-primary"/> */}
-                      <Link to={"/portal"} className='btn btn-primary mr-2 mt-3'>Login</Link>
-                      
+                      {/* <Link to={"/portal"} className='btn btn-primary mr-2 mt-3'>Login</Link> */}
+                      <a href="https://spotforneeds.com/bills/index.html" target="_blank" className='btn btn-primary mt-3 ml-5'>Login
+              
+
+              </a>
                     </div>
                   </form>
                 </div>

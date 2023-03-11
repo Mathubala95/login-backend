@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Dashboard from "./Dashboard";
+
 import Navbar from "./Navbar";
 
 // Admin Portal
@@ -11,9 +12,16 @@ function Portal() {
         <div id="content-wrapper" class="d-flex flex-column">
           <div id="content">
             <Navbar/> 
-            {/* <Dashboard/> */}
+           
             
-            <Outlet/>  
+            <div class="container-fluid pt-5">
+            <Dashboard/>
+            </div>
+          
+          
+         
+            
+   
          
           </div>
         </div>
